@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
@@ -17,7 +22,7 @@ ul {
 
 li{
   list-style-type: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 button {
@@ -49,7 +54,7 @@ button {
 } 
 
 .logo {
-  font-size: 24px;
+  font-size: 38px;
   font-weight: bolder;
 }
 
@@ -73,18 +78,19 @@ button {
 }
 
 .panel1-img {
-  width: 650px;
-  height: 300px;
+  width: 800px;
+  height: 480px;
+  border-radius: 7px;
 }
 
 .info {
-  font-size: 36px;
+  font-size: 58px;
   font-weight: bolder;
 }
 
 
 .title-text {
-  font-size: 48px;
+  font-size: 78px;
   font-weight: bolder;
   color: #f9faf8;
   margin-top: 10px;
@@ -92,10 +98,102 @@ button {
 }
 
 .second-text {
-  font-size: 18px;
+  font-size: 38px;
   color: #E5E7EB;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.panel2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.pic-row {
+  padding: 50px 0 150px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.pic-box {
+  width: 250px;
+  font-size: 24px;
 }
 
 .panel3 {
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-color: #E5E7EB;
+  text-align: left;
+  padding-left: 600px;
+  padding-right: 600px;
+}
+
+.quote {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+
+.quote-origin {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.panel4 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.box {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0;
+  font-size: 26px;
+  padding-right: 20%;
+  height: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.signup {
+  padding: 15px 50px 15px 50px;
+  border-color: white;
+  font-size: 30px;
+  border-width: 5px;
+}
+
+.call {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.sign {
+  font-size: 30px;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
 }
